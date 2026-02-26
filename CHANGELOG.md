@@ -3,52 +3,47 @@
 ## 25/02/2026
 
 🚀 **Novidades**
-- Nova área do gerente com funcionalidades exclusivas para gestão
-- Melhor exibição da quantidade disponível de produtos no sistema
+- Lançamento do Espaço do Gerente - nova área dedicada para funções de gestão
+- Aprimoramento na busca de produtos com informações de quantidade disponível
 
 ## 23/02/2026
 
 🐛 **Correções**
-- Corrigida navegação entre abas de status nos pedidos
-- Melhorias na autenticação e mensagens de erro para tokens inválidos
+- Corrigida navegação entre abas de status de pedidos
+- Melhorada autenticação com mensagens de erro mais claras para tokens inválidos
 
 ## 21/02/2026
 
 🚀 **Novidades**
-- Nova funcionalidade de distribuição de notas fiscais eletrônicas
-- Melhorado processo de checkout com criação e validação de pedidos de venda
+- Nova funcionalidade de distribuição de notas fiscais
+- Aprimoramento no processo de checkout com melhor validação de pedidos
 
 ## 09/02/2026
 
 🚀 **Novidades**
-- Nova funcionalidade para atualizar planogramas por produto em lote
-- Sistema de gerenciamento de permissões de usuário
+- Nova ferramenta para atualização em lote de planogramas por produto
+- Sistema de permissões de usuário disponível
 
-🐛 **Correções**
-- Corrigidos problemas na interface de permissões
+✨ **Melhorias**
+- Interface de permissões aprimorada
 
 ## 30/01/2026
 
 🚀 **Novidades**
-- Sistema completo de gerenciamento e impressão de etiquetas personalizadas
+- Sistema completo de gerenciamento e impressão de etiquetas
 
 ## 22/01/2026
 
 🚀 **Novidades**
-- Histórico completo de pedidos de venda
-- Sistema de notificações aprimorado
+- Sistema de notificações implementado
+- Histórico de pedidos de venda disponível
 
 🐛 **Correções**
 - Melhorias na busca de contatos
-- Corrigida emissão de notas fiscais de entrada
-- Corrigidos campos estadual e municipal nas notas fiscais
+- Correções na emissão de notas fiscais de entrada
+- Filtros de tarefas funcionando corretamente
 
 ## 19/01/2026
 
 🐛 **Correções**
-- Corrigido gerenciamento de unidades de conversão na criação e edição de produtos
-
-## 16/01/2026
-
-🐛 **Correções**
-- Corrigido link para download de DANFE (Documento Auxiliar da Nota Fiscal Eletrônica)
+- Corrigido problema na criação e edição de produtos relacionado às unidades de conversão
