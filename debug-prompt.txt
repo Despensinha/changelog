@@ -1,0 +1,275 @@
+Você é um redator de changelog para a plataforma Despensinha.
+Receba os changelogs técnicos do frontend e backend abaixo e gere UM changelog
+unificado em português brasileiro, voltado para usuários finais.
+
+Regras:
+- Agrupe por data (mais recente primeiro), unificando front+back do mesmo período
+- Use estas categorias quando houver itens: 🚀 Novidades, ✨ Melhorias, 🐛 Correções
+- Ignore completamente: refatorações internas, bumps de dependência, mudanças de CI/CD, chores
+- Linguagem simples e amigável, sem jargão técnico
+- Se um item técnico não tiver impacto visível pro usuário, não inclua
+- Formato Markdown limpo
+- Título do documento: "# Histórico de Atualizações"
+- Cada grupo de data deve ser um ## com formato "## DD/MM/AAAA"
+- Se não houver nenhuma mudança relevante pro usuário em uma release, pule ela
+
+Changelogs técnicos:
+
+## Frontend Releases
+
+### v1.24.0 (2026-02-25)
+# [1.24.0](https://github.com/Despensinha/despensinha-admin-app/compare/v1.23.3...v1.24.0) (2026-02-25)
+
+
+### Features
+
+* Manager Space ([#549](https://github.com/Despensinha/despensinha-admin-app/issues/549)) ([0f8c5d8](https://github.com/Despensinha/despensinha-admin-app/commit/0f8c5d8545e8624319f421dedd34722811374f14))
+
+
+
+
+
+### v1.23.3 (2026-02-23)
+## [1.23.3](https://github.com/Despensinha/despensinha-admin-app/compare/v1.23.2...v1.23.3) (2026-02-23)
+
+
+### Bug Fixes
+
+* 🐛 correct import path for SalesOrderOccurrencesModal and standardize string quotes ([1acb7fc](https://github.com/Despensinha/despensinha-admin-app/commit/1acb7fc759c78b12fd51a7ebcfe5e9d02929707c))
+* 🐛 update status tab navigation to use selected statuses ([2e9b90e](https://github.com/Despensinha/despensinha-admin-app/commit/2e9b90e31f7a6ee4d64442a1b1a9e897f582e1db))
+
+
+
+
+
+### v1.23.2 (2026-02-23)
+## [1.23.2](https://github.com/Despensinha/despensinha-admin-app/compare/v1.23.1...v1.23.2) (2026-02-23)
+
+
+### Bug Fixes
+
+* 🐛 update status tab navigation to use selected statuses ([#545](https://github.com/Despensinha/despensinha-admin-app/issues/545)) ([bfecb14](https://github.com/Despensinha/despensinha-admin-app/commit/bfecb14833c88558417fecdf85d7839f3285054f))
+
+
+
+
+
+### v1.23.1 (2026-02-23)
+## [1.23.1](https://github.com/Despensinha/despensinha-admin-app/compare/v1.23.0...v1.23.1) (2026-02-23)
+
+
+### Bug Fixes
+
+* hot fixes ([#543](https://github.com/Despensinha/despensinha-admin-app/issues/543)) ([1781331](https://github.com/Despensinha/despensinha-admin-app/commit/1781331e12f381fa61f50cf26a52584d6b2ad1ce))
+
+
+
+
+
+### v1.23.0 (2026-02-21)
+# [1.23.0](https://github.com/Despensinha/despensinha-admin-app/compare/v1.22.0...v1.23.0) (2026-02-21)
+
+
+### Features
+
+* Nfe distribution ([#541](https://github.com/Despensinha/despensinha-admin-app/issues/541)) ([6ad2167](https://github.com/Despensinha/despensinha-admin-app/commit/6ad21671aac1328f080eee6f6d3d257c72cc8134))
+
+
+
+
+
+### v1.22.0 (2026-02-09)
+# [1.22.0](https://github.com/Despensinha/despensinha-admin-app/compare/v1.21.0...v1.22.0) (2026-02-09)
+
+
+### Bug Fixes
+
+* permission ui fixes ([#538](https://github.com/Despensinha/despensinha-admin-app/issues/538)) ([a523ced](https://github.com/Despensinha/despensinha-admin-app/commit/a523ceda04cde5bbfbacaaf3d28c5531a1739dd6))
+
+
+### Features
+
+* Update planograms by produt modal ([#539](https://github.com/Despensinha/despensinha-admin-app/issues/539)) ([75f0d98](https://github.com/Despensinha/despensinha-admin-app/commit/75f0d984d1d41f7f944bed119e9595d110d5d975))
+
+
+
+
+
+### v1.21.0 (2026-01-30)
+# [1.21.0](https://github.com/Despensinha/despensinha-admin-app/compare/v1.20.1...v1.21.0) (2026-01-30)
+
+
+### Features
+
+* Tag Template Management and Printing ([#536](https://github.com/Despensinha/despensinha-admin-app/issues/536)) ([9b8988e](https://github.com/Despensinha/despensinha-admin-app/commit/9b8988eb03f4545788d38e79f6c8b792fdd69adb))
+
+
+
+
+
+### v1.20.1 (2026-01-22)
+## [1.20.1](https://github.com/Despensinha/despensinha-admin-app/compare/v1.20.0...v1.20.1) (2026-01-22)
+
+
+### Bug Fixes
+
+* nfein inputs state and municipal  ([#534](https://github.com/Despensinha/despensinha-admin-app/issues/534)) ([2b01cc5](https://github.com/Despensinha/despensinha-admin-app/commit/2b01cc51a20c06ff8b8a0928163644eb85374e57))
+
+
+
+
+
+### v1.20.0 (2026-01-22)
+# [1.20.0](https://github.com/Despensinha/despensinha-admin-app/compare/v1.19.1...v1.20.0) (2026-01-22)
+
+
+### Features
+
+* Notifications, orders and NFE ([#532](https://github.com/Despensinha/despensinha-admin-app/issues/532)) ([3a5cf63](https://github.com/Despensinha/despensinha-admin-app/commit/3a5cf63570152acbee6fb90f176a5acd8f96de30))
+* notifications, sales-order, buy-order refractoring ([#531](https://github.com/Despensinha/despensinha-admin-app/issues/531)) ([8447fb1](https://github.com/Despensinha/despensinha-admin-app/commit/8447fb11b89b3e9be0654e75cc429995c73c9590))
+
+
+
+
+
+### v1.19.1 (2026-01-19)
+## [1.19.1](https://github.com/Despensinha/despensinha-admin-app/compare/v1.19.0...v1.19.1) (2026-01-19)
+
+
+### Bug Fixes
+
+* Fix Product create/edit pages to handle convertion_unit properly ([#529](https://github.com/Despensinha/despensinha-admin-app/issues/529)) ([77dee0b](https://github.com/Despensinha/despensinha-admin-app/commit/77dee0b69461d9cb728becf1cd83adda0819bcc3))
+
+
+
+
+
+## Backend Releases
+
+### v1.29.0 (2026-02-25)
+# [1.29.0](https://github.com/Despensinha/despensinha-main-api-modular/compare/v1.28.2...v1.29.0) (2026-02-25)
+
+
+### Features
+
+* Manager area ([#515](https://github.com/Despensinha/despensinha-main-api-modular/issues/515)) ([23bc2e3](https://github.com/Despensinha/despensinha-main-api-modular/commit/23bc2e3d74fce86426bfb755a75a945b1e72b4ec))
+* **product:** enhance product retrieval with available quantity and POS filtering ([#512](https://github.com/Despensinha/despensinha-main-api-modular/issues/512)) ([18c2d6a](https://github.com/Despensinha/despensinha-main-api-modular/commit/18c2d6a90c9798f1968d562b8377aaccd741a547))
+
+
+
+
+
+### v1.28.2 (2026-02-23)
+## [1.28.2](https://github.com/Despensinha/despensinha-main-api-modular/compare/v1.28.1...v1.28.2) (2026-02-23)
+
+
+### Bug Fixes
+
+* **auth:** update error messages for invalid refresh tokens ([#510](https://github.com/Despensinha/despensinha-main-api-modular/issues/510)) ([67168da](https://github.com/Despensinha/despensinha-main-api-modular/commit/67168da1dadddd60378ae29e3e33cfb1f6bb20f4))
+
+
+
+
+
+### v1.28.1 (2026-02-23)
+## [1.28.1](https://github.com/Despensinha/despensinha-main-api-modular/compare/v1.28.0...v1.28.1) (2026-02-23)
+
+
+
+
+
+### v1.28.0 (2026-02-21)
+# [1.28.0](https://github.com/Despensinha/despensinha-main-api-modular/compare/v1.27.0...v1.28.0) (2026-02-21)
+
+
+### Features
+
+* many improvements ([#499](https://github.com/Despensinha/despensinha-main-api-modular/issues/499)) ([5018c0a](https://github.com/Despensinha/despensinha-main-api-modular/commit/5018c0a621517bd939e18c886e3763406f286a01))
+* nfe distribution ([#500](https://github.com/Despensinha/despensinha-main-api-modular/issues/500)) ([0ca04c3](https://github.com/Despensinha/despensinha-main-api-modular/commit/0ca04c3368900217368522e403afd226ad3a387d))
+* **order:** enhance checkout process with sales order creation and validation ([#497](https://github.com/Despensinha/despensinha-main-api-modular/issues/497)) ([8cb48e7](https://github.com/Despensinha/despensinha-main-api-modular/commit/8cb48e7301648b4521c438d5670004d68ad75f3b))
+
+
+
+
+
+### v1.27.0 (2026-02-09)
+# [1.27.0](https://github.com/Despensinha/despensinha-main-api-modular/compare/v1.26.0...v1.27.0) (2026-02-09)
+
+
+### Features
+
+* **account:** add AccountPermissionController  - Added a new controller `AccountPermissionController` to manage user permissions - Implemented the `availablePermissions` endpoint to list available permissions for a user ([#490](https://github.com/Despensinha/despensinha-main-api-modular/issues/490)) ([60582f5](https://github.com/Despensinha/despensinha-main-api-modular/commit/60582f58eb70bb2907570016383d8c51cf0b8ead))
+* **planogram:** add batch editing for planogram items and validation logic ([#495](https://github.com/Despensinha/despensinha-main-api-modular/issues/495)) ([7f6b011](https://github.com/Despensinha/despensinha-main-api-modular/commit/7f6b0115cb8cb463f51d2700f92eee19ba910762))
+
+
+
+
+
+### v1.26.0 (2026-01-29)
+# [1.26.0](https://github.com/Despensinha/despensinha-main-api-modular/compare/v1.25.2...v1.26.0) (2026-01-29)
+
+
+### Features
+
+* **client:** add CompanyDto and CompanyMapper ([#485](https://github.com/Despensinha/despensinha-main-api-modular/issues/485)) ([c66f7e2](https://github.com/Despensinha/despensinha-main-api-modular/commit/c66f7e255493b932a27700552475eb1a5939b3d9))
+* **service:** add duplicate functionality to TagTemplateService ([#483](https://github.com/Despensinha/despensinha-main-api-modular/issues/483)) ([2b7a1de](https://github.com/Despensinha/despensinha-main-api-modular/commit/2b7a1dede3767f4b334240a5f5c8155aa9f4b978))
+
+
+
+
+
+### v1.25.2 (2026-01-22)
+## [1.25.2](https://github.com/Despensinha/despensinha-main-api-modular/compare/v1.25.1...v1.25.2) (2026-01-22)
+
+
+### Bug Fixes
+
+* contactSearch and nfein emission ([#479](https://github.com/Despensinha/despensinha-main-api-modular/issues/479)) ([4539936](https://github.com/Despensinha/despensinha-main-api-modular/commit/453993603ee982cdd3fbf0e4b002cad343285a8b))
+* contactSearch and nfein emission ([#479](https://github.com/Despensinha/despensinha-main-api-modular/issues/479)) ([#480](https://github.com/Despensinha/despensinha-main-api-modular/issues/480)) ([230d7e3](https://github.com/Despensinha/despensinha-main-api-modular/commit/230d7e301957fa412252e3bdd65951f920274769))
+
+
+
+
+
+### v1.25.1 (2026-01-22)
+## [1.25.1](https://github.com/Despensinha/despensinha-main-api-modular/compare/v1.25.0...v1.25.1) (2026-01-22)
+
+
+### Bug Fixes
+
+* TaskFilter, contact search and nfein emission ([#477](https://github.com/Despensinha/despensinha-main-api-modular/issues/477)) ([43c923f](https://github.com/Despensinha/despensinha-main-api-modular/commit/43c923fcb2af2ed9e45cfbca7bc0d621a6684dee))
+* TaskFilter, contact search and nfein emission ([#477](https://github.com/Despensinha/despensinha-main-api-modular/issues/477)) ([#478](https://github.com/Despensinha/despensinha-main-api-modular/issues/478)) ([8c272ee](https://github.com/Despensinha/despensinha-main-api-modular/commit/8c272ee10057aff4a30525835b12c4c836fa9a67))
+
+
+
+
+
+### v1.25.0 (2026-01-22)
+# [1.25.0](https://github.com/Despensinha/despensinha-main-api-modular/compare/v1.24.1...v1.25.0) (2026-01-22)
+
+
+### Bug Fixes
+
+* notification and orders ([#475](https://github.com/Despensinha/despensinha-main-api-modular/issues/475)) ([5f79604](https://github.com/Despensinha/despensinha-main-api-modular/commit/5f796043e3d34139c94249e2142baa16a6444593))
+
+
+### Features
+
+* **sales:** add sales order history feature ([#474](https://github.com/Despensinha/despensinha-main-api-modular/issues/474)) ([117c354](https://github.com/Despensinha/despensinha-main-api-modular/commit/117c354cc473e280ed6679a0a7f2adbcd27dee11))
+
+
+
+
+
+### v1.24.1 (2026-01-16)
+## [1.24.1](https://github.com/Despensinha/despensinha-main-api-modular/compare/v1.24.0...v1.24.1) (2026-01-16)
+
+
+### Bug Fixes
+
+* **fiscal:** fix link download danfe in ENotasWebhookService ([#471](https://github.com/Despensinha/despensinha-main-api-modular/issues/471)) ([3b50a82](https://github.com/Despensinha/despensinha-main-api-modular/commit/3b50a82c24c81449eeff34787417bf079696562b))
+* **fiscal:** fix link download danfe in ENotasWebhookService ([#471](https://github.com/Despensinha/despensinha-main-api-modular/issues/471)) ([#472](https://github.com/Despensinha/despensinha-main-api-modular/issues/472)) ([3dc947f](https://github.com/Despensinha/despensinha-main-api-modular/commit/3dc947fa16c489111cee789692327b841cc6f09b))
+
+
+
+

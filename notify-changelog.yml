@@ -1,0 +1,31 @@
+# =============================================================
+# Adicione este arquivo nos DOIS repos:
+#   - Despensinha/despensinha-admin-app
+#   - Despensinha/despensinha-main-api-modular
+#
+# Caminho: .github/workflows/notify-changelog.yml
+#
+# Secret necessário: CHANGELOG_PAT
+#   (PAT com permissão "repo" no repo do changelog)
+# =============================================================
+name: Notify Changelog
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch changelog update
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.CHANGELOG_PAT }}
+          repository: Despensinha/despensinha-changelog
+          event-type: release-published
+          client-payload: |
+            {
+              "repo": "${{ github.repository }}",
+              "version": "${{ github.event.release.tag_name }}"
+            }
