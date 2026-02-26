@@ -1,5 +1,5 @@
 # =============================================================
-# Repo: Despensinha/changelog
+# Repo: Despensinha/despensinha-changelog
 # Caminho: .github/workflows/update-changelog.yml
 #
 # Secrets necessários:
@@ -37,7 +37,7 @@ jobs:
 
       - name: Fetch releases from both repos
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.CHANGELOG_PAT }}
         run: |
           echo "📦 Buscando releases do backend..."
           gh api "repos/Despensinha/despensinha-main-api-modular/releases?per_page=20" \

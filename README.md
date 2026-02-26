@@ -50,7 +50,7 @@ chmod +x test-local.sh
 ## Uso no frontend
 
 ```typescript
-const CHANGELOG_URL = 'https://raw.githubusercontent.com/Despensinha/despensinha-changelog/main/CHANGELOG.md';
+const CHANGELOG_URL = 'https://raw.githubusercontent.com/Despensinha/changelog/main/CHANGELOG.md';
 
 const res = await fetch(CHANGELOG_URL);
 const markdown = await res.text();
