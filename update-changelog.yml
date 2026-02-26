@@ -1,0 +1,91 @@
+# .github/workflows/update-changelog.yml
+name: Update Changelog
+on:
+  repository_dispatch:
+    types: [release-published]
+  workflow_dispatch: # pra poder rodar manualmente tb
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch releases from both repos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api Despensinha/despensinha-main-api-modular/releases --limit 20 --jq '.[] | {tag: .tag_name, date: .published_at, body: .body}' > /tmp/front-releases.json
+          gh api Despensinha/despensinha-admin-app/releases --limit 20 --jq '.[] | {tag: .tag_name, date: .published_at, body: .body}' > /tmp/back-releases.json
+
+      - name: Generate translated changelog
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cat <<'SCRIPT' > generate.py
+          import json, os, subprocess, sys
+          from datetime import datetime
+
+          # Lê releases
+          with open("/tmp/front-releases.json") as f:
+              front = [json.loads(line) for line in f if line.strip()]
+          with open("/tmp/back-releases.json") as f:
+              back = [json.loads(line) for line in f if line.strip()]
+
+          # Monta prompt
+          releases_text = "## Frontend Releases\n"
+          for r in front[:10]:
+              releases_text += f"\n### {r['tag']} ({r['date'][:10]})\n{r['body']}\n"
+
+          releases_text += "\n## Backend Releases\n"
+          for r in back[:10]:
+              releases_text += f"\n### {r['tag']} ({r['date'][:10]})\n{r['body']}\n"
+
+          prompt = f"""Você é um redator de changelog para uma plataforma SaaS.
+          Receba os changelogs técnicos do frontend e backend abaixo e gere UM changelog
+          unificado em português brasileiro, voltado para usuários finais.
+
+          Regras:
+          - Agrupe por data (mais recente primeiro), unificando front+back do mesmo período
+          - Categorias: 🚀 Novidades, ✨ Melhorias, 🐛 Correções
+          - Ignore: refatorações internas, bumps de dependência, mudanças de CI/CD
+          - Linguagem simples e amigável, sem jargão técnico
+          - Formato Markdown
+          - Título: "Histórico de Atualizações"
+
+          {releases_text}"""
+
+          import httpx
+          resp = httpx.post(
+              "https://api.anthropic.com/v1/messages",
+              headers={{
+                  "x-api-key": os.environ["ANTHROPIC_API_KEY"],
+                  "content-type": "application/json",
+                  "anthropic-version": "2023-06-01"
+              }},
+              json={{
+                  "model": "claude-sonnet-4-20250514",
+                  "max_tokens": 4096,
+                  "messages": [{{"role": "user", "content": prompt}}]
+              }},
+              timeout=60
+          )
+          data = resp.json()
+          md = data["content"][0]["text"]
+
+          with open("CHANGELOG.md", "w") as f:
+              f.write(md)
+
+          print("Changelog gerado com sucesso!")
+          SCRIPT
+
+          pip install httpx --quiet
+          python generate.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "changelog-bot"
+          git config user.email "bot@example.com"
+          git add CHANGELOG.md
+          git diff --cached --quiet || git commit -m "docs: atualiza changelog [skip ci]"
+          git push
