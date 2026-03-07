@@ -1,66 +1,81 @@
 # Histórico de Atualizações
 
+## 07/03/2026
+
+🚀 **Novidades**
+- Adicionadas sugestões de compra mais inteligentes com filtros avançados de busca
+- Sistema agora suporta busca por múltiplos produtos nas sugestões
+
+🐛 **Correções**
+- Corrigido problema na exibição de imagens no painel principal
+
+## 04/03/2026
+
+✨ **Melhorias** 
+- Melhorada a análise de estoque para geração de sugestões de compra mais precisas
+- Aprimorado o processo de adição de itens no inventário
+- Atualizados os filtros de data em pedidos de venda
+- Expandidos os campos de observações e tags para comportar mais informações
+
 ## 02/03/2026
 
-### 🚀 Novidades
-- **Espaço do Gestor**: Nova área exclusiva para gestores acompanharem informações financeiras e operacionais de forma centralizada
-- **Página Inicial Renovada**: Interface completamente redesenhada com guia de configuração, anúncios, notícias e acesso rápido aos módulos
-- **Modal de Boas-vindas**: Tela de apresentação especial para novos usuários
-- **Histórico de Atualizações**: Visualize todas as novidades da plataforma na nova seção "Sobre"
-- **Relatórios de Fornecimento**: Novos relatórios detalhados para análise de suprimentos
-- **Gestão de Assinatura**: Sistema completo para gerenciar planos, faturas e dados de cobrança
-- **Sugestões de Compra Inteligentes**: Algoritmo aprimorado que analisa histórico de vendas e estoque para sugerir compras mais precisas
+🚀 **Novidades**
+- Nova página inicial redesenhada com guia de configuração interativo
+- Adicionado modal de boas-vindas para novos usuários
+- Implementado sistema de exibição de changelog na plataforma
+- Nova seção "Espaço do Gestor" para administradores
+- Adicionados novos filtros para listas de NFe, inventário e competências financeiras
+- Sistema de gerenciamento de assinaturas e planos
 
-### ✨ Melhorias  
-- **Filtros Avançados**: Adicionados filtros em várias telas para facilitar a busca de informações
-- **Gestão de NFC-e**: Melhorias no gerenciamento de itens e validações
-- **Sistema de Planogramas**: Agora permite filtrar por ponto de venda
-- **Navegação**: Interface mais intuitiva para navegar entre diferentes status
+✨ **Melhorias**
+- Interface de autenticação reformulada
+- Melhorado o gerenciamento de itens NFCe com novas validações
+- Aprimorada a busca de produtos com filtros por ponto de venda
+- Novos relatórios detalhados de suprimentos
+- Interface de cobrança aprimorada
 
-### 🐛 Correções
-- Correções na exibição de status em diversos modais
-- Melhorias na importação de componentes
-- Ajustes nos campos de dados de cobrança
-- Correções nos filtros de pagamentos
+🐛 **Correções**
+- Corrigidos problemas na exibição de status de parcelas
+- Ajustada a renderização de badges condicionais
+- Corrigido campo de contribuinte estadual na assinatura
+- Melhorada a filtragem de pagamentos sem data de registro
 
 ## 25/02/2026
 
-### 🚀 Novidades
-- **Espaço do Gestor**: Lançamento da nova área para acompanhamento gerencial
-- **Busca de Produtos**: Melhorada a funcionalidade para encontrar produtos por ponto de venda
+🚀 **Novidades**
+- Lançamento oficial do "Espaço do Gestor" com funcionalidades administrativas completas
+- Nova área para gestores acompanharem métricas e indicadores da empresa
 
-### ✨ Melhorias
-- **Checkout**: Processo de finalização de vendas mais robusto com melhor validação
-- **Consulta de Produtos**: Agora mostra quantidade disponível e permite filtrar por ponto de venda
+## 23/02/2026
+
+🐛 **Correções**
+- Melhorada a navegação entre abas de status
+- Corrigidos caminhos de importação em diversos componentes
+- Ajustes gerais de estabilidade na interface
 
 ## 21/02/2026
 
-### 🚀 Novidades
-- **Distribuição de NFe**: Nova funcionalidade para gerenciar a distribuição de notas fiscais eletrônicas
-
-### ✨ Melhorias
-- Diversas melhorias na experiência do usuário em várias funcionalidades
+🚀 **Novidades**
+- Sistema de distribuição de NFe implementado
+- Novo processo de checkout para pedidos de venda com validações aprimoradas
 
 ## 09/02/2026
 
-### 🚀 Novidades
-- **Edição em Lote de Planogramas**: Agora você pode atualizar múltiplos itens de planograma de uma só vez por produto
-- **Gestão de Permissões**: Nova interface para visualizar e gerenciar permissões de usuários
+🚀 **Novidades**
+- Sistema de gerenciamento de permissões de usuários
+- Funcionalidade de edição em lote para itens de planograma
 
-## 30/01/2026
+✨ **Melhorias**
+- Aprimorada a interface de permissões de usuário
 
-### 🚀 Novidades
-- **Modelos de Etiquetas**: Sistema completo para criar, gerenciar e imprimir etiquetas personalizadas
-- **Duplicação de Modelos**: Facilite a criação de novos modelos duplicando os existentes
+## 29/01/2026
+
+🚀 **Novidades**
+- Funcionalidade de duplicação de modelos de etiquetas
+- Novos mapeadores para dados de empresas
 
 ## 22/01/2026
 
-### 🚀 Novidades
-- **Histórico de Pedidos**: Acompanhe todo o histórico e alterações dos seus pedidos de venda
-- **Notificações Aprimoradas**: Sistema de notificações melhorado para manter você informado
-- **Busca de Contatos**: Funcionalidade aprimorada para encontrar clientes e fornecedores
-
-### 🐛 Correções
-- Melhorias na emissão de NFe de entrada
-- Correções nos filtros de tarefas
-- Ajustes na busca de contatos
+🐛 **Correções**
+- Melhorada a busca de contatos
+- Corrigidos problemas na emissão de NFe de entrada
