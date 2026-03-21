@@ -11,8 +11,8 @@
 name: Notify Changelog
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: [ master ]
 
 jobs:
   notify:
