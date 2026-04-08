@@ -1,5 +1,50 @@
 # Histórico de Atualizações
 
+## 08/04/2026
+
+🐛 **Correções**
+- Melhorada a sincronização de dados do painel administrativo e inventário
+
+## 26/03/2026
+
+🚀 **Novidades**
+- Sistema completo de gestão de promoções no painel administrativo
+
+🐛 **Correções**
+- Aprimorada a lógica de criação de usuários
+- Corrigido o login com Apple
+
+## 25/03/2026
+
+🚀 **Novidades**
+- Funcionalidade de transferência entre estoques
+- Nova opção para excluir contas de clientes
+
+🐛 **Correções**
+- Melhoradas as interfaces de gestão de inventário
+- Corrigido o sistema de emissão de notas fiscais para vendas de clientes
+
+## 23/03/2026
+
+🚀 **Novidades**
+- Sistema completo de emissão de NFC-e (Nota Fiscal do Consumidor Eletrônica)
+- Novos modais e funcionalidades de relatórios de inventário
+
+🐛 **Correções**
+- Melhorado o sistema de geração de relatórios
+
+## 20/03/2026
+
+🚀 **Novidades**
+- Busca de estabelecimentos por localização (coordenadas GPS)
+- Mapeamento de unidades de conversão para produtos
+- Funcionalidades de aprovação e cancelamento em lote para compras
+- Filtros por categoria nas entradas de estoque
+
+🛠️ **Melhorias**
+- Funcionalidade de exclusão em lote para itens do sistema
+- Melhorado o sistema de atualização de datas
+
 ## 20/03/2026
 
 🚀 **Novidades**
