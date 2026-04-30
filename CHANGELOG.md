@@ -1,5 +1,65 @@
 # Histórico de Atualizações
 
+## 30/04/2026
+
+### 🚀 Novidades
+- **Editor de Imagens**: Nova funcionalidade para editar evidências de ocorrências diretamente no sistema, com ferramentas para desenhar, recortar, girar e fazer download das imagens editadas
+- **Player de Vídeo**: Adicionado suporte para visualização de vídeos na galeria de evidências
+- **Ocorrências de Vendas**: Novo módulo completo para gestão de ocorrências com criação, listagem, detalhamento e conversão para pedidos
+- **Promoções**: Sistema completo de gestão de promoções com operações CRUD
+- **Webhook Events**: Nova funcionalidade para monitoramento e gestão de eventos webhook
+- **Lista de Preços**: Implementadas operações em lote como aplicar markup por categoria, remover itens e duplicar listas
+- **Relatório de Perdas**: Novo relatório disponível para análise de produtos com perdas
+- **SMS para NFC-e**: Envio automático de link para download da NFC-e via SMS
+
+### ✨ Melhorias
+- **Dashboard**: Gráficos aprimorados com tooltips e legendas mais informativos, além de controle de acesso baseado em permissões
+- **Inventário**: Adicionada opção para zerar quantidades de produtos não conferidos e seleção de dias do último inventário
+- **Notificações**: Implementadas ações em lote para marcar como lidas e remover notificações
+- **Etiquetas**: Melhorias na funcionalidade de impressão com validação aprimorada
+- **Exportação de Dados**: Sistema configurável para exportação de dados implementado
+- **Upload de Arquivos**: Configuração aprimorada com suporte a diferentes tipos de arquivos
+
+### 🐛 Correções
+- **Dashboard**: Corrigido tratamento de valores nulos em gráficos
+- **Ocorrências**: Corrigidos problemas de fuso horário em datas e prevenção de duplo salvamento
+- **Planograma**: Corrigidos problemas de mapeamento de campos
+- **Sistema**: Melhorias gerais de estabilidade e performance
+
+## 22/04/2026
+
+### ✨ Melhorias
+- **Produtos**: Otimizada lógica de mapeamento GTIN para melhor performance
+- **Terminal e Planograma**: Aprimoradas opções de filtro na interface
+
+## 20/04/2026
+
+### 🚀 Novidades
+- **Ocorrências de Vendas**: Implementado sistema completo de gestão com funcionalidades de soft-delete e histórico
+- **Múltiplos GTINs**: Produtos agora suportam múltiplos códigos GTIN para maior flexibilidade
+- **Validação GTIN**: Nova validação para códigos GTIN em NF-e
+
+### ✨ Melhorias
+- **Planograma**: Melhorias na funcionalidade de etiquetas com novos filtros
+- **PDV**: Aprimoramentos nos filtros e seleções
+
+### 🐛 Correções
+- **Busca**: Corrigidos caracteres especiais em pesquisas
+- **Comentários**: Validação aprimorada para conteúdo não vazio
+- **Sistema**: Melhor tratamento de erros e logs mais informativos
+
+## 11/04/2026
+
+### ✨ Melhorias
+- **Planograma**: Melhorias na interface e funcionalidades de etiquetagem
+- **Sistema**: Aprimoramentos gerais de performance e estabilidade
+
+## 08/04/2026
+
+### ✨ Melhorias
+- **PDV**: Melhorias no mapeamento e nomenclatura de métodos
+- **Sistema**: Atualização de dependências e otimizações gerais
+
 ## 08/04/2026
 
 🐛 **Correções**
