@@ -91,7 +91,7 @@ def call_claude(prompt):
         print("❌ ANTHROPIC_API_KEY não encontrada no ambiente")
         sys.exit(1)
 
-    print("   Chamando Claude API (claude-sonnet-4-20250514)...")
+    print("   Chamando Claude API (claude-sonnet-4-6)...")
     resp = httpx.post(
         "https://api.anthropic.com/v1/messages",
         headers={
@@ -100,7 +100,7 @@ def call_claude(prompt):
             "anthropic-version": "2023-06-01",
         },
         json={
-            "model": "claude-sonnet-4-20250514",
+            "model": "claude-sonnet-4-6",
             "max_tokens": 4096,
             "messages": [{"role": "user", "content": prompt}],
         },
