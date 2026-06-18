@@ -1,5 +1,69 @@
 # Histórico de Atualizações
 
+## 18/06/2026
+
+### 🚀 Novidades
+
+- **Guia de primeiros passos:** um novo widget flutuante aparece na tela inicial para guiar você pelas etapas essenciais de configuração da plataforma. Acompanhe seu progresso por níveis, marque tarefas concluídas e retome de onde parou a qualquer momento.
+- **Envio de notificações push:** agora é possível criar e enviar notificações push diretamente pelo painel, escolhendo o aplicativo de destino e o terminal desejado. O botão de envio fica disponível tanto no menu de notificações quanto na página de listagem.
+- **Reconciliação de NF-e de entrada:** ao importar uma nota fiscal de entrada, o sistema agora reconhece automaticamente os produtos e oferece ações para vincular a um produto existente, cadastrar um novo produto ou marcar o item como não destinado à revenda.
+- **Cadastro de NCM, CEST e CFOP direto na nota:** ao editar itens de uma NF-e de entrada, você pode pesquisar e criar códigos NCM, CEST e CFOP sem sair da tela.
+- **NF-e automática (auto-ciência):** novas notas fiscais destinadas ao seu CNPJ agora são reconhecidas e registradas automaticamente no sistema.
+
+### ✨ Melhorias
+
+- As tabelas de listagem em toda a plataforma foram redesenhadas com um visual mais moderno, organizado e com indicadores de status mais claros.
+- O menu do usuário no cabeçalho agora fecha automaticamente ao clicar fora dele.
+- Novos campos de configuração adicionados nas preferências de separação e preferências do usuário.
+- Novas opções de permissões disponíveis nas configurações do sistema.
+
+### 🐛 Correções
+
+- Corrigido problema em que a seleção de terminal aparecia indevidamente ao enviar notificações push para destinos que não eram o aplicativo do ponto de venda.
+- Corrigido erro que gerava um timestamp incorreto ao tentar recriar uma notificação push com o título em branco.
+- Corrigida exibição de gráficos na tela inicial que falhava quando a API retornava dados em formato inesperado.
+
+---
+
+## 22/05/2026
+
+### 🚀 Novidades
+
+- A seção de novidades da tela inicial agora é carregada dinamicamente a partir de uma fonte de conteúdo atualizada.
+- Suporte completo ao envio de notificações push via Firebase Cloud Messaging, com agendamento, filtro por aplicativo de destino e por terminal.
+
+---
+
+## 30/04/2026
+
+### 🚀 Novidades
+
+- **Ocorrências de vendas:** novo módulo para registrar e gerenciar ocorrências relacionadas a vendas, com lista, detalhes, histórico de comentários, evidências com upload de imagens/vídeos e ações de conversão.
+- **Galeria de imagens com editor:** agora é possível visualizar, anotar e baixar imagens de evidências diretamente no painel, com ferramentas de desenho, recorte, rotação e desfazer.
+- **Reprodução de vídeos:** a galeria de mídia passou a suportar a visualização de vídeos.
+- **Listas de preços — ações em lote:** novas opções para aplicar markup em massa (geral ou por categoria), remover itens em lote e duplicar uma lista de preços inteira.
+- **Promoções:** novo módulo de gestão de promoções com criação, edição e exclusão.
+- **Relatório de perda de produtos:** novo relatório disponível para acompanhamento de perdas no estoque.
+- **Eventos de webhook:** nova página para visualizar os eventos recebidos via webhook.
+- **Notificações em lote:** agora é possível marcar várias notificações como lidas ou removê-las de uma só vez.
+- **Envio de NFC-e por SMS:** o link para download da NFC-e agora pode ser enviado por SMS ao cliente.
+
+### ✨ Melhorias
+
+- **Inventário:** nova opção para zerar as quantidades de produtos não contados ao iniciar uma conferência, e nova seleção de período dos últimos inventários a considerar.
+- **Planograma:** filtros aprimorados e melhorias visuais na impressão de etiquetas.
+- **Gráficos:** tooltips e legendas mais detalhados para facilitar a leitura dos dados.
+- **Impressão de etiquetas:** melhorias na validação e nas opções de impressão.
+- **Ponto de venda:** um PDV agora pode ter múltiplos terminais associados.
+
+### 🐛 Correções
+
+- Corrigido erro que podia salvar uma ocorrência em duplicidade ao editar a descrição de uma evidência.
+- Corrigido problema de fuso horário na exibição de datas em ocorrências vinculadas a cobranças.
+- Corrigido erro na aplicação de cupons de desconto em pedidos de venda com valores nulos.
+- Corrigido problema ao atualizar promoções com condições específicas.
+- Corrigida exibição de valores nulos nos gráficos do painel.
+
 ## 30/04/2026
 
 ### 🚀 Novidades
