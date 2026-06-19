@@ -4,6 +4,34 @@
 
 ### 🚀 Novidades
 
+- **Guia de primeiros passos:** um novo widget flutuante aparece na tela inicial para guiar você pelas etapas de configuração da plataforma. Acompanhe seu progresso em cada fase e retome de onde parou a qualquer momento.
+- **Envio de notificações push:** agora é possível enviar notificações push diretamente pelo sino de notificações no cabeçalho da plataforma, sem precisar navegar até outra página.
+- **Reconciliação de NF-e de entrada:** ao importar uma nota fiscal de entrada, o sistema agora identifica automaticamente os produtos e permite vincular itens da nota a produtos já cadastrados, criar novos produtos ou ignorar itens que não são para revenda.
+- **Criação de NCM, CEST e CFOP diretamente nos formulários:** ao preencher dados fiscais de produtos, você agora pode criar ou buscar códigos NCM, CEST e CFOP sem sair da tela atual.
+- **Novas páginas de preferências:** foram adicionadas páginas de configuração de separação e preferências de usuário, com novas opções de personalização.
+- **Configuração de permissões:** nova tela de configuração de permissões disponível nas configurações da plataforma.
+- **NF-e com ciência automática:** notas fiscais eletrônicas recebidas agora geram a manifestação de ciência da operação automaticamente ao serem descobertas.
+
+### ✨ Melhorias
+
+- **Visual das tabelas atualizado:** todas as listagens da plataforma (vendas, financeiro, catálogo, estoque, relatórios, notificações, preferências e outras) receberam um novo visual mais moderno e organizado, com indicadores de status coloridos.
+- **Indicadores de status nas listas:** as listas agora exibem etiquetas coloridas de status, facilitando a identificação rápida de cada registro.
+- **Telemetria e análises aprimoradas:** novos componentes de telemetria foram adicionados ao painel, trazendo mais informações sobre o uso da plataforma.
+- **Login com Google e Apple mais confiável:** a autenticação social foi aprimorada para maior estabilidade e segurança.
+- **Mais sessões simultâneas permitidas:** o limite de sessões ativas por usuário foi aumentado, reduzindo desconexões inesperadas.
+
+### 🐛 Correções
+
+- **Notificações push:** a seleção de terminal agora aparece apenas quando o destino correto é escolhido, evitando confusão no formulário de envio.
+- **Notificações push:** ao recriar uma notificação sem título, o sistema não gerava o identificador corretamente — isso foi corrigido.
+- **Tela inicial:** a seção de novidades não exibia nada quando a resposta do servidor vinha em formato inesperado — corrigido para evitar tela em branco.
+- **NF-e de entrada:** a associação de produtos da nota ao estoque agora verifica corretamente se todos os itens foram reconciliados antes de permitir a entrada.
+- **Relatórios fiscais:** os relatórios de operações agora agrupam e descrevem os CFOPs corretamente.
+
+## 18/06/2026
+
+### 🚀 Novidades
+
 - **Guia de primeiros passos:** um novo widget flutuante aparece na tela inicial para guiar você pelas etapas essenciais de configuração da plataforma. Acompanhe seu progresso por níveis, marque tarefas concluídas e retome de onde parou a qualquer momento.
 - **Envio de notificações push:** agora é possível criar e enviar notificações push diretamente pelo painel, escolhendo o aplicativo de destino e o terminal desejado. O botão de envio fica disponível tanto no menu de notificações quanto na página de listagem.
 - **Reconciliação de NF-e de entrada:** ao importar uma nota fiscal de entrada, o sistema agora reconhece automaticamente os produtos e oferece ações para vincular a um produto existente, cadastrar um novo produto ou marcar o item como não destinado à revenda.
