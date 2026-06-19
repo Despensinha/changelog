@@ -1,5 +1,38 @@
 # Histórico de Atualizações
 
+## 19/06/2026
+
+### 🐛 Correções
+
+- Ao redefinir sua senha, todas as sessões ativas da sua conta são encerradas automaticamente, aumentando a segurança do acesso.
+
+---
+
+## 18/06/2026
+
+### 🚀 Novidades
+
+- **Guia de primeiros passos:** um novo widget flutuante aparece na tela inicial para te guiar pelas etapas de configuração da plataforma, com progresso por nível e a possibilidade de reabrir o guia quando quiser.
+- **Notificações push:** agora é possível enviar notificações push diretamente pelo painel, com um novo botão de envio acessível pelo sino de notificações no topo da tela.
+- **NF-e de entrada:** novos modais para editar, adicionar e cadastrar produtos diretamente a partir dos itens de uma nota fiscal de entrada, facilitando a conciliação do seu estoque.
+- **Reconciliação de produtos (NF-e):** ao importar uma nota fiscal, o sistema agora identifica automaticamente os produtos e permite vincular a um produto existente, criar um novo ou ignorar itens que não são para revenda.
+- **NF-e automática:** notas fiscais destinadas ao seu CNPJ agora são capturadas e registradas automaticamente, sem necessidade de ação manual.
+- **Novas preferências:** páginas de configuração de separação e preferências do usuário foram adicionadas, com mais opções de personalização do sistema.
+- **Configuração de permissões:** nova seção de configuração de permissões disponível nas configurações do sistema.
+
+### ✨ Melhorias
+
+- As tabelas e listas em toda a plataforma foram redesenhadas com um visual mais moderno, limpo e com indicadores de status coloridos em diversas seções (vendas, finanças, cadastros, notificações, relatórios e outras).
+- Os campos de busca de NCM, CEST e CFOP agora contam com modais de criação integrados, agilizando o cadastro fiscal de produtos.
+- O menu do usuário no cabeçalho foi aprimorado e agora fecha automaticamente ao clicar fora dele.
+- O sistema passou a iniciar mais rapidamente graças a otimizações internas no carregamento de dados.
+
+### 🐛 Correções
+
+- Corrigido um problema em que a seção de notícias na tela inicial podia travar caso a resposta do servidor viesse em formato inesperado.
+- Na tela de envio de notificação push, o seletor de ponto de venda agora aparece apenas quando necessário, evitando confusão.
+- Resolvido um erro em que o campo de título vazio na notificação push gerava um identificador incorreto ao regenerar.
+
 ## 18/06/2026
 
 ### 🚀 Novidades
