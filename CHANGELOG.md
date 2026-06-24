@@ -1,5 +1,11 @@
 # Histórico de Atualizações
 
+## 24/06/2026
+
+### 🐛 Correções
+
+- Ao redefinir sua senha, todas as sessões ativas da sua conta são encerradas automaticamente, garantindo mais segurança no acesso.
+
 ## 19/06/2026
 
 ### 🐛 Correções
