@@ -1,5 +1,43 @@
 # Histórico de Atualizações
 
+## 25/06/2026
+
+### 🐛 Correções
+
+- Corrigido um erro que impedia algumas ações na lista de NF-e de entrada
+
+---
+
+## 24/06/2026
+
+### 🚀 Novidades
+
+- **NF-e de entrada:** nova tela de lançamento de estoque completamente reformulada, com comparação lado a lado entre os itens da nota e os produtos do seu catálogo — facilitando a identificação e vinculação de cada item
+- **NF-e de entrada:** agora é possível baixar o XML e o DANFE diretamente da lista de notas de distribuição
+- **NF-e de entrada:** informações detalhadas sobre valor, remetente, chave de acesso e datas da nota agora ficam disponíveis em painéis de tooltip diretamente na lista
+- **Pedidos de compra, venda e NFC-e:** lançamento de estoque integrado ao novo fluxo unificado de lançamento em lote
+- **Catálogo:** linhas da tabela agora são clicáveis para abrir o produto; formulário de categoria abre em modal diretamente pela URL
+- **Lista de produtos:** exibe há quanto tempo o produto foi atualizado, com data e hora exatas ao passar o mouse
+
+### ✨ Melhorias
+
+- **Filtros nas tabelas:** os filtros aplicados agora aparecem como etiquetas removíveis na barra de ferramentas, facilitando a visualização e remoção de cada filtro individualmente
+- **Paginação:** o rodapé das tabelas agora exibe o intervalo de registros sendo visualizado (ex.: "1–20 de 150")
+- **Lista de produtos:** visual mais compacto e organizado
+- **NF-e de entrada:** indicação visual de carregamento ao importar uma nota de distribuição
+- **Fornecedores e comunidades:** endereço agora é opcional no cadastro e edição
+- **Lançamento de estoque:** itens da nota exibem etiqueta indicando se o produto foi identificado por EAN ou por SKU do fornecedor
+- **NF-e de saída e NFC-e:** a opção de lançar estoque só aparece para notas autorizadas
+
+### 🐛 Correções
+
+- **Segurança:** ao redefinir a senha, todas as sessões ativas da conta são encerradas automaticamente
+- **Pedidos de compra:** a lista é atualizada corretamente após um lançamento de estoque bem-sucedido
+- **Pedidos de compra:** o SKU do fornecedor agora é usado corretamente na identificação dos itens durante o lançamento
+- **Contatos:** validação do campo de estado do endereço corrigida
+- **Lançamento em lote:** estado do modal é reiniciado corretamente ao reabri-lo
+- Ajustes nas dimensões de imagens em diversas telas
+
 ## 24/06/2026
 
 ### 🐛 Correções
