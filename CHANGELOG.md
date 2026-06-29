@@ -1,5 +1,24 @@
 # Histórico de Atualizações
 
+## 29/06/2026
+
+### 🚀 Novidades
+
+- **Painel de PDVs ao vivo:** o painel de terminais de venda ganhou uma visualização completamente reformulada, com contador de vendas animado, indicador de status em tempo real e modo tela cheia para acompanhamento no salão ou retaguarda.
+- **Atualização automática do painel:** os dados do painel de PDVs agora se atualizam automaticamente a cada 10 segundos, sem precisar recarregar a página.
+- **Detalhes do PDV em modal:** agora é possível clicar em um terminal para ver informações detalhadas diretamente em uma janela, sem sair da tela.
+
+### ✨ Melhorias
+
+- **Gestão de inventário:** melhorias na busca e nos filtros do gerenciamento de estoque, tornando mais fácil localizar e organizar os itens do inventário.
+- **Ordenação de tabelas:** a ordenação das colunas nas listagens foi corrigida para funcionar de forma mais precisa e consistente.
+
+### 🐛 Correções
+
+- Corrigido um problema em que o contador animado de vendas podia "travar" se a atualização fosse interrompida no meio.
+- Corrigido um erro que podia ocorrer ao abrir ações em linhas da lista de NF-e de entrada.
+- Ao ocorrer uma falha de carregamento na plataforma, agora é exibida uma mensagem clara com a opção de recarregar a página manualmente.
+
 ## 25/06/2026
 
 ### 🐛 Correções
