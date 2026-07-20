@@ -1,5 +1,35 @@
 # Histórico de Atualizações
 
+## 20/07/2026
+
+### 🚀 Novidades
+
+- **Cenários fiscais e promoções aprimorados:** melhorias no tratamento de cenários de impostos e promoções nos pedidos.
+
+### 🔒 Segurança
+
+- Ao redefinir a senha, todas as sessões ativas do usuário são encerradas automaticamente, aumentando a segurança da conta.
+
+---
+
+## 29/06/2026
+
+### 🚀 Novidades
+
+- **Painel de PDVs em tempo real:** novo painel de monitoramento dos pontos de venda com atualização automática a cada 10 segundos, contador de vendas animado e indicador de status ao vivo.
+- **Modo tela cheia no painel de PDVs:** agora é possível expandir o painel de telemetria para tela cheia, ideal para exibição em monitores dedicados.
+- **Detalhes do PDV em modal:** clique em um terminal para ver informações detalhadas sobre conectividade, status e métricas de venda sem sair da tela.
+
+### ✨ Melhorias
+
+- A ordenação das colunas nas tabelas foi corrigida e agora funciona corretamente em todas as listagens.
+- Os números animados no painel de vendas em tempo real não travam mais ao serem interrompidos — a animação retoma de onde parou.
+
+### 🐛 Correções
+
+- Corrigido problema que podia travar a tela ao carregar uma nova versão da plataforma — agora um botão de recarregamento é exibido automaticamente nesses casos.
+- Ao redefinir a senha, todas as sessões ativas do usuário passam a ser encerradas corretamente, garantindo mais segurança.
+
 ## 29/06/2026
 
 ### 🚀 Novidades
