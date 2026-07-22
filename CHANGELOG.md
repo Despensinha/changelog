@@ -4,6 +4,17 @@
 
 ### 🚀 Novidades
 
+- **Cenários fiscais aprimorados:** agora é possível configurar e gerenciar cenários de tributação com mais flexibilidade, garantindo maior precisão nas operações fiscais.
+- **Melhorias nas promoções:** novas opções de gerenciamento de promoções disponíveis para facilitar a criação e o controle das suas ofertas.
+
+### ✨ Melhorias
+
+- **Mais segurança na redefinição de senha:** ao redefinir sua senha, todas as sessões abertas em outros dispositivos são encerradas automaticamente, protegendo o acesso à sua conta.
+
+## 20/07/2026
+
+### 🚀 Novidades
+
 - **Cenários fiscais e promoções aprimorados:** melhorias no tratamento de cenários de impostos e promoções nos pedidos.
 
 ### 🔒 Segurança
