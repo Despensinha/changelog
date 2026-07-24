@@ -1,5 +1,23 @@
 # Histórico de Atualizações
 
+## 22/07/2026
+
+### 🐛 Correções
+
+- Ao redefinir sua senha, todas as sessões abertas em outros dispositivos agora são encerradas automaticamente, aumentando a segurança da sua conta.
+
+---
+
+## 20/07/2026
+
+### 🚀 Novidades
+
+- Melhorias no gerenciamento de cenários fiscais e promoções, tornando as configurações tributárias e ofertas mais precisas e confiáveis.
+
+### ✨ Melhorias
+
+- Ao redefinir sua senha, suas sessões em outros dispositivos são desconectadas automaticamente para proteger o acesso à sua conta.
+
 ## 20/07/2026
 
 ### 🚀 Novidades
